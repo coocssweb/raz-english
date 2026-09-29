@@ -2,7 +2,18 @@
 .app-reader .reader-main{position:relative;padding-top:22px;padding-bottom:48px}
 .app-reader .reader-top{justify-content:flex-end;margin-bottom:16px}
 .app-reader .scene-friend{top:25px;right:-30px;width:240px;height:240px;opacity:.5}
-.app-reader .open-book{position:relative;border-radius:24px;box-shadow:0 5px 0 color-mix(in srgb,var(--accent) 18%,#e9deca),0 8px 0 #cfc2a7,0 20px 45px #66533320}
+.reader-card-stage{perspective:1200px;perspective-origin:center center;position:relative;width:100%}
+.app-reader .open-book{position:relative;border-radius:24px;box-shadow:0 5px 0 color-mix(in srgb,var(--accent) 18%,#e9deca),0 8px 0 #cfc2a7,0 20px 45px #66533320;transform-origin:center center;backface-visibility:hidden;will-change:transform,opacity}
+.open-book.turning-next-out{animation:card-z-next-out 350ms cubic-bezier(.3,0,.2,1) forwards}
+.open-book.turning-next-in{animation:card-z-next-in 350ms cubic-bezier(.15,.85,.35,1) forwards}
+.open-book.turning-prev-out{animation:card-z-prev-out 350ms cubic-bezier(.3,0,.2,1) forwards}
+.open-book.turning-prev-in{animation:card-z-prev-in 350ms cubic-bezier(.15,.85,.35,1) forwards}
+
+@keyframes card-z-next-out{0%{transform:translate3d(0,0,0) scale(1);opacity:1}100%{transform:translate3d(0,-42px,-160px) scale(.88);opacity:0}}
+@keyframes card-z-next-in{0%{transform:translate3d(0,42px,120px) scale(1.08);opacity:0}100%{transform:translate3d(0,0,0) scale(1);opacity:1}}
+@keyframes card-z-prev-out{0%{transform:translate3d(0,0,0) scale(1);opacity:1}100%{transform:translate3d(0,42px,-160px) scale(.88);opacity:0}}
+@keyframes card-z-prev-in{0%{transform:translate3d(0,-42px,120px) scale(1.08);opacity:0}100%{transform:translate3d(0,0,0) scale(1);opacity:1}}
+
 .reader-main .tactile,.reader-exit-dialog .tactile{--button-edge:color-mix(in srgb,var(--accent) 35%,var(--paper));border:2px solid color-mix(in srgb,var(--accent) 22%,var(--paper));border-radius:18px;background:var(--paper);color:var(--accent-dark);box-shadow:0 5px 0 var(--button-edge);translate:0 0;transition:translate 140ms ease,box-shadow 140ms ease,background-color 140ms ease}
 .reader-main .reader-close{width:54px;height:54px;display:grid;place-items:center;z-index:1}
 .reader-main .page-nav{min-height:54px;font-size:15px;padding:0 22px;font-weight:800}
@@ -24,10 +35,26 @@
 .exit-actions button{min-height:54px;font-size:16px;font-weight:800}
 .reading-celebration{position:fixed;inset:0;pointer-events:none;z-index:20;overflow:hidden}
 .reward-word{position:absolute;top:22%;left:50%;color:var(--accent-dark);background:var(--paper);border:3px solid var(--accent);border-radius:24px;padding:12px 27px;font-size:32px;font-weight:900;box-shadow:0 5px 0 var(--soft);animation:reward-pop 1.8s both}
-.firework{position:absolute;left:25%;top:40%}.firework-1{left:74%;top:34%}.firework-2{left:52%;top:65%}
+.firework{position:absolute}
 .firework i{position:absolute;width:8px;height:16px;background:var(--spark-color);border-radius:5px;animation:firework-burst 1.5s ease-out both}
-.firework-1 i{animation-delay:.12s}.firework-2 i{animation-delay:.22s}
-.grand .firework i{width:10px;height:22px}
+
+/* 下一页：单页学完奖励烟花（3处，适中轻快） */
+.celebration-page .firework-0{left:25%;top:38%}
+.celebration-page .firework-1{left:74%;top:32%}
+.celebration-page .firework-2{left:52%;top:60%}
+.celebration-page .firework-1 i{animation-delay:.12s}
+.celebration-page .firework-2 i{animation-delay:.22s}
+
+/* 我读完啦：终极整本读完彩带落下盛大庆祝 */
+.celebration-ribbons{position:fixed;inset:0;pointer-events:none;z-index:25;overflow:hidden}
+.celebration-ribbons .ribbon{position:absolute;top:-36px;left:var(--ribbon-left);background:var(--ribbon-color);opacity:.95;animation:ribbon-fall var(--ribbon-duration) cubic-bezier(.25,.46,.45,.94) var(--ribbon-delay) both;transform-origin:center center;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.celebration-ribbons .ribbon:nth-child(2n){animation-name:ribbon-fall-alt}
+.celebration-ribbons .ribbon-strip{width:7px;height:28px;border-radius:4px}
+.celebration-ribbons .ribbon-flake{width:12px;height:12px;border-radius:2px}
+
+@keyframes ribbon-fall{0%{transform:translate3d(0,0,0) rotateX(0deg) rotateY(0deg) rotate(0deg);opacity:0}10%{opacity:1}35%{transform:translate3d(24px,35vh,40px) rotateX(240deg) rotateY(180deg) rotate(90deg)}70%{transform:translate3d(-20px,72vh,-20px) rotateX(540deg) rotateY(360deg) rotate(220deg)}90%{opacity:.9}100%{transform:translate3d(16px,108vh,20px) rotateX(720deg) rotateY(540deg) rotate(360deg);opacity:0}}
+@keyframes ribbon-fall-alt{0%{transform:translate3d(0,0,0) rotateX(0deg) rotateY(0deg) rotate(0deg);opacity:0}10%{opacity:1}35%{transform:translate3d(-28px,35vh,-30px) rotateX(180deg) rotateY(270deg) rotate(-60deg)}70%{transform:translate3d(24px,72vh,30px) rotateX(420deg) rotateY(480deg) rotate(-180deg)}90%{opacity:.9}100%{transform:translate3d(-18px,108vh,-10px) rotateX(660deg) rotateY(720deg) rotate(-320deg);opacity:0}}
+
 @media(hover:hover){.reader-main .tactile:not(:disabled):hover,.reader-exit-dialog .tactile:not(:disabled):hover{translate:0 -2px;box-shadow:0 7px 0 var(--button-edge)}}
 .reader-main .tactile:not(:disabled):active,.reader-exit-dialog .tactile:not(:disabled):active{translate:0 4px;box-shadow:0 1px 0 var(--button-edge);transition-duration:60ms}
 @keyframes speaker-wave{from{opacity:.3}to{opacity:1}}
@@ -35,4 +62,4 @@
 @keyframes firework-burst{0%{transform:rotate(var(--angle)) translateY(0) scale(.3);opacity:0}15%{opacity:1}100%{transform:rotate(var(--angle)) translateY(-155px) scale(.5);opacity:0}}
 @keyframes reward-pop{0%{transform:translate(-50%,18px) scale(.6);opacity:0}15%,75%{transform:translate(-50%,0) scale(1);opacity:1}100%{transform:translate(-50%,-18px) scale(.95);opacity:0}}
 @media(max-width:760px){.app-reader .reader-main{padding:16px 18px 32px}.app-reader .reader-top{max-width:500px;margin:0 auto 16px}.app-reader .scene-friend{width:160px;height:160px;top:0}.reader-main .page-text{padding:20px 18px 24px}.reader-main .speaker-button{width:70px;height:70px}.reader-main .reader-bottom{max-width:500px;margin:24px auto 0}.reader-main .page-nav{font-size:14px;padding:0 14px}.reader-main .page-dots button{width:44px}.reader-main .completion{max-width:500px;margin:14px auto 0}.reward-word{font-size:27px;white-space:nowrap}.firework i{height:12px}}
-@media(prefers-reduced-motion:reduce){.speaker-button.playing:after,.firework{display:none}.reward-word{transform:translateX(-50%)} }
+@media(prefers-reduced-motion:reduce){.speaker-button.playing:after,.firework,.celebration-ribbons{display:none}.open-book.turning-next-out,.open-book.turning-next-in,.open-book.turning-prev-out,.open-book.turning-prev-in{animation:none!important}.reward-word{transform:translateX(-50%)}}

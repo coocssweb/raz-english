@@ -9,6 +9,12 @@ import {openReadingStore} from '../reading/storage';
 beforeEach(async()=>{
   vi.stubGlobal('matchMedia', vi.fn().mockReturnValue({matches:true}));
   location.hash = "#/read/my-animals";
+  await new Promise<void>((resolve) => {
+    const req = indexedDB.deleteDatabase('little-reading-house');
+    req.onsuccess = () => resolve();
+    req.onerror = () => resolve();
+    req.onblocked = () => resolve();
+  });
   await (await openReadingStore()).saveProgress({bookId:"my-animals",page:0,completed:false,updatedAt:Date.now()});
   vi.spyOn(HTMLMediaElement.prototype,'play').mockImplementation(function(this:HTMLMediaElement){this.dispatchEvent(new Event('playing'));return Promise.resolve();});
   vi.spyOn(HTMLMediaElement.prototype,'pause').mockImplementation(()=>{});
@@ -29,16 +35,68 @@ it('keeps the outgoing content until the fold, blocks repeated navigation, and u
   expect((screen.getByRole('button',{name:'播放朗读'}) as HTMLButtonElement).disabled).toBe(true);
   fireEvent.click(screen.getByRole('button',{name:'下一页'}));
   fireEvent.keyDown(screen.getByRole('main'),{key:'ArrowRight'});
-  act(()=>vi.advanceTimersByTime(225));
+  // 烟花播放阶段（1200ms内），仍然保持在第1页，操作锁定
+  act(()=>vi.advanceTimersByTime(600));
+  expect(screen.getByRole('button',{name:'第1页'}).getAttribute('aria-current')).toBe('page');
+  expect((screen.getByRole('button',{name:'播放朗读'}) as HTMLButtonElement).disabled).toBe(true);
+  // 烟花播放结束（再过600ms）并进入卡片Z轴出场动画（350ms）后，切换到第2页
+  act(()=>vi.advanceTimersByTime(600 + 350));
   expect(screen.getByRole('button',{name:'第2页'}).getAttribute('aria-current')).toBe('page');
   fireEvent.click(screen.getByRole('button',{name:'第4页'}));
-  act(()=>vi.advanceTimersByTime(225));
+  act(()=>vi.advanceTimersByTime(350));
   expect(screen.getByRole('button',{name:'第2页'}).getAttribute('aria-current')).toBe('page');
   expect((screen.getByRole('button',{name:'播放朗读'}) as HTMLButtonElement).disabled).toBe(false);
   fireEvent.click(screen.getByRole('button',{name:'上一页'}));
-  act(()=>vi.advanceTimersByTime(225));
-  act(()=>vi.advanceTimersByTime(225));
+  act(()=>vi.advanceTimersByTime(350));
+  act(()=>vi.advanceTimersByTime(350));
   expect(screen.getByRole('button',{name:'第1页'}).getAttribute('aria-current')).toBe('page');
+});
+
+it('plays celebration fireworks first, then applies Z-axis card transition classes',async()=>{
+  vi.stubGlobal('matchMedia', vi.fn().mockReturnValue({matches:false}));
+  await openBook();
+  vi.useFakeTimers();
+  fireEvent.click(screen.getByRole('button',{name:'播放朗读'}));
+  fireEvent.click(screen.getByRole('button',{name:'下一页'}));
+  // 烟花播放中，卡片未加翻页动画类
+  expect(document.querySelector('.celebration-page')).toBeTruthy();
+  expect(document.querySelectorAll('.celebration-page .firework')).toHaveLength(3);
+  const card = document.querySelector('.open-book')!;
+  expect(card.classList.contains('turning-next-out')).toBe(false);
+
+  // 烟花结束，进入Z轴翻页动画
+  act(()=>vi.advanceTimersByTime(1200));
+  expect(card.classList.contains('turning-next-out')).toBe(true);
+
+  // 到达折叠点，换到下一页，进入in阶段
+  act(()=>vi.advanceTimersByTime(350));
+  expect(card.classList.contains('turning-next-in')).toBe(true);
+
+  // 动画完成，移除动画类
+  act(()=>vi.advanceTimersByTime(350));
+  expect(card.classList.contains('turning-next-in')).toBe(false);
+});
+
+it('plays falling ribbons animation on complete',async()=>{
+  vi.stubGlobal('matchMedia', vi.fn().mockReturnValue({matches:false}));
+  render(<Reader book={getBook('fruit-time')!}/>);
+  await waitFor(()=>expect((screen.getByRole('button',{name:'播放朗读'}) as HTMLButtonElement).disabled).toBe(false));
+  vi.useFakeTimers();
+  for(let i=1;i<=6;i++){
+    fireEvent.click(screen.getByRole('button',{name:`第${i}页`}));
+    fireEvent.click(screen.getByRole('button',{name:'播放朗读'}));
+    fireEvent.click(screen.getByRole('button',{name:i===6?'我读完啦':'下一页'}));
+    if(i<6){
+      act(()=>vi.advanceTimersByTime(1200 + 700));
+    }
+  }
+  // 点击我读完啦，触发彩带落下盛大庆祝
+  const ribbons = document.querySelector('.celebration-ribbons')!;
+  expect(ribbons).toBeTruthy();
+  const pieces = ribbons.querySelectorAll('.ribbon');
+  expect(pieces.length).toBeGreaterThanOrEqual(40);
+  expect(ribbons.querySelectorAll('.ribbon-strip').length).toBeGreaterThan(0);
+  expect(ribbons.querySelectorAll('.ribbon-flake').length).toBeGreaterThan(0);
 });
 
 it('changes pages immediately when reduced motion is requested',async()=>{
