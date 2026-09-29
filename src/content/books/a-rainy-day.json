@@ -1,0 +1,80 @@
+{
+  "id": "a-rainy-day",
+  "level": "A",
+  "title": "A Rainy Day",
+  "subtitle": "下雨也快乐",
+  "cover": "/books/a-rainy-day/cover.png",
+  "tags": [
+    "下雨也快乐"
+  ],
+  "order": 14,
+  "color": "#adcad9",
+  "pages": [
+    {
+      "id": "a-rainy-day-1",
+      "english": "I see the rain.",
+      "chinese": "我看到下雨了。",
+      "image": "/books/a-rainy-day/page-01.png",
+      "alt": "A preschool child with short black hair wearing a yellow raincoat watches raindrops through a window.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-01.wav"
+      }
+    },
+    {
+      "id": "a-rainy-day-2",
+      "english": "I put on my boots.",
+      "chinese": "我穿上雨靴。",
+      "image": "/books/a-rainy-day/page-02.png",
+      "alt": "A preschool child with short black hair wearing a yellow raincoat pulls on bright red rain boots.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-02.wav"
+      }
+    },
+    {
+      "id": "a-rainy-day-3",
+      "english": "I take my umbrella.",
+      "chinese": "我拿上雨伞。",
+      "image": "/books/a-rainy-day/page-03.png",
+      "alt": "A preschool child with short black hair in yellow raincoat and red rain boots holds a small teal umbrella.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-03.wav"
+      }
+    },
+    {
+      "id": "a-rainy-day-4",
+      "english": "I jump in a puddle.",
+      "chinese": "我跳进一个小水坑。",
+      "image": "/books/a-rainy-day/page-04.png",
+      "alt": "A preschool child with short black hair in yellow raincoat and red rain boots joyfully splashes in a shallow puddle holding a teal umbrella.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-04.wav"
+      }
+    },
+    {
+      "id": "a-rainy-day-5",
+      "english": "The rain stops at last.",
+      "chinese": "雨终于停了。",
+      "image": "/books/a-rainy-day/page-05.png",
+      "alt": "A preschool child in yellow raincoat and red boots lowers a closed teal umbrella as sunlight comes out after rain.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-05.wav"
+      }
+    },
+    {
+      "id": "a-rainy-day-6",
+      "english": "I see a rainbow.",
+      "chinese": "我看到一道彩虹。",
+      "image": "/books/a-rainy-day/page-06.png",
+      "alt": "A preschool child in yellow raincoat and red boots looks at a bright rainbow above a green garden.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-rainy-day/page-06.wav"
+      }
+    }
+  ]
+}

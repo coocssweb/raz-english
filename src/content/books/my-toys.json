@@ -1,0 +1,80 @@
+{
+  "id": "my-toys",
+  "level": "aa",
+  "title": "My Toys",
+  "subtitle": "我的玩具箱",
+  "cover": "/books/my-toys/cover.png",
+  "tags": [
+    "我的玩具箱"
+  ],
+  "order": 2,
+  "color": "#a8cdd6",
+  "pages": [
+    {
+      "id": "my-toys-1",
+      "english": "My teddy bear.",
+      "chinese": "我的泰迪熊。",
+      "image": "/books/my-toys/page-01.png",
+      "alt": "One plush honey brown teddy bear with a teal bow sits in a cozy nursery.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-01.wav"
+      }
+    },
+    {
+      "id": "my-toys-2",
+      "english": "My ball.",
+      "chinese": "我的球。",
+      "image": "/books/my-toys/page-02.png",
+      "alt": "One large colorful beach ball rests in a cozy nursery.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-02.wav"
+      }
+    },
+    {
+      "id": "my-toys-3",
+      "english": "My blocks.",
+      "chinese": "我的积木。",
+      "image": "/books/my-toys/page-03.png",
+      "alt": "A small stack of colorful wooden building blocks in a cozy nursery, no letters.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-03.wav"
+      }
+    },
+    {
+      "id": "my-toys-4",
+      "english": "My train.",
+      "chinese": "我的小火车。",
+      "image": "/books/my-toys/page-04.png",
+      "alt": "A red wooden toy train with two little carriages on a simple track.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-04.wav"
+      }
+    },
+    {
+      "id": "my-toys-5",
+      "english": "My kite.",
+      "chinese": "我的风筝。",
+      "image": "/books/my-toys/page-05.png",
+      "alt": "A bright diamond-shaped kite with ribbon bows leaning in a cozy nursery.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-05.wav"
+      }
+    },
+    {
+      "id": "my-toys-6",
+      "english": "My doll.",
+      "chinese": "我的玩偶。",
+      "image": "/books/my-toys/page-06.png",
+      "alt": "A friendly cloth doll in yellow overalls sits in a cozy nursery.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-toys/page-06.wav"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+import {it,expect,vi} from 'vitest';
+import {createAudioController} from './controller';
+import type {Page} from '../content/types';
+class FakeAudio {src='';currentTime=0;volume=1;onended:(()=>void)|null=null;onerror:(()=>void)|null=null;onplaying:(()=>void)|null=null;onpause:(()=>void)|null=null;preload='';pause=vi.fn();load=vi.fn();play=vi.fn(async()=>{this.onplaying?.();});removeAttribute=vi.fn();}
+const page=(id:string):Page=>({id,english:'A cat.',chinese:'猫',image:'cat.png',alt:'cat',audio:{kind:'file',src:id+'.wav'}});
+it('invalidates stale ended events and restarts replay',async()=>{const media:FakeAudio[]=[];const ended=vi.fn();const c=createAudioController({onState:vi.fn(),onEnded:ended,onError:vi.fn()},()=>{const a=new FakeAudio();media.push(a);return a as unknown as HTMLAudioElement;});c.load(page('a'));await c.play();const late=media[0].onended;c.load(page('b'));late?.();expect(ended).not.toHaveBeenCalled();await c.play();media[1].currentTime=2;await c.replay();expect(media[1].currentTime).toBe(0);c.dispose();media[1].onended?.();expect(ended).not.toHaveBeenCalled();});
+it('reports media failures without silently changing the voice',async()=>{const error=vi.fn();const a=new FakeAudio();const c=createAudioController({onState:vi.fn(),onEnded:vi.fn(),onError:error},()=>a as unknown as HTMLAudioElement);c.load(page('a'));a.play.mockRejectedValueOnce(new Error('blocked'));await c.play();expect(error).toHaveBeenCalled();c.dispose();});

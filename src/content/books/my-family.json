@@ -1,0 +1,80 @@
+{
+  "id": "my-family",
+  "level": "aa",
+  "title": "My Family",
+  "subtitle": "温暖的家",
+  "cover": "/books/my-family/cover.png",
+  "tags": [
+    "温暖的家"
+  ],
+  "order": 4,
+  "color": "#e2b9bd",
+  "pages": [
+    {
+      "id": "my-family-1",
+      "english": "My mom.",
+      "chinese": "我的妈妈。",
+      "image": "/books/my-family/page-01.png",
+      "alt": "A kind mother with short black bob hair and coral cardigan waves in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-01.wav"
+      }
+    },
+    {
+      "id": "my-family-2",
+      "english": "My dad.",
+      "chinese": "我的爸爸。",
+      "image": "/books/my-family/page-02.png",
+      "alt": "A kind father with short black hair and blue shirt waves in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-02.wav"
+      }
+    },
+    {
+      "id": "my-family-3",
+      "english": "My sister.",
+      "chinese": "我的姐姐。",
+      "image": "/books/my-family/page-03.png",
+      "alt": "A cheerful girl with black pigtails wearing yellow overalls stands in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-03.wav"
+      }
+    },
+    {
+      "id": "my-family-4",
+      "english": "My brother.",
+      "chinese": "我的弟弟。",
+      "image": "/books/my-family/page-04.png",
+      "alt": "A cheerful little boy with short black hair wearing green overalls stands in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-04.wav"
+      }
+    },
+    {
+      "id": "my-family-5",
+      "english": "My grandma.",
+      "chinese": "我的奶奶。",
+      "image": "/books/my-family/page-05.png",
+      "alt": "A smiling grandmother with gray bob hair and lavender cardigan sits in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-05.wav"
+      }
+    },
+    {
+      "id": "my-family-6",
+      "english": "My grandpa.",
+      "chinese": "我的爷爷。",
+      "image": "/books/my-family/page-06.png",
+      "alt": "A smiling grandfather with gray hair and brown cardigan sits in a warm family living room.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-family/page-06.wav"
+      }
+    }
+  ]
+}

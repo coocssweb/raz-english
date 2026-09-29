@@ -1,0 +1,80 @@
+{
+  "id": "a-little-seed",
+  "level": "A",
+  "title": "A Little Seed",
+  "subtitle": "一颗小种子",
+  "cover": "/books/a-little-seed/cover.png",
+  "tags": [
+    "一颗小种子"
+  ],
+  "order": 10,
+  "color": "#c4d29b",
+  "pages": [
+    {
+      "id": "a-little-seed-1",
+      "english": "I have a little seed.",
+      "chinese": "我有一颗小种子。",
+      "image": "/books/a-little-seed/page-01.png",
+      "alt": "A preschool child in yellow overalls shows a single brown seed on an open palm beside an empty terracotta pot.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-01.wav"
+      }
+    },
+    {
+      "id": "a-little-seed-2",
+      "english": "I put it in the soil.",
+      "chinese": "我把它放进土里。",
+      "image": "/books/a-little-seed/page-02.png",
+      "alt": "A preschool child in yellow overalls places a brown seed into soil in a terracotta pot.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-02.wav"
+      }
+    },
+    {
+      "id": "a-little-seed-3",
+      "english": "I water my little seed.",
+      "chinese": "我给我的小种子浇水。",
+      "image": "/books/a-little-seed/page-03.png",
+      "alt": "A preschool child in yellow overalls carefully waters soil in a terracotta pot with a small green watering can.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-03.wav"
+      }
+    },
+    {
+      "id": "a-little-seed-4",
+      "english": "The sun warms the soil.",
+      "chinese": "阳光温暖着泥土。",
+      "image": "/books/a-little-seed/page-04.png",
+      "alt": "A terracotta pot filled with moist soil stands on a sunny windowsill with warm sun rays.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-04.wav"
+      }
+    },
+    {
+      "id": "a-little-seed-5",
+      "english": "A little plant comes up.",
+      "chinese": "一株小苗长出来了。",
+      "image": "/books/a-little-seed/page-05.png",
+      "alt": "A tiny bright green two-leaf sprout emerges from soil in a terracotta pot on a sunny windowsill.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-05.wav"
+      }
+    },
+    {
+      "id": "a-little-seed-6",
+      "english": "My plant has a flower.",
+      "chinese": "我的植物开花了。",
+      "image": "/books/a-little-seed/page-06.png",
+      "alt": "A preschool child in yellow overalls admires one yellow flower on a green plant in the same terracotta pot.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/a-little-seed/page-06.wav"
+      }
+    }
+  ]
+}

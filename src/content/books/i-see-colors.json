@@ -1,0 +1,80 @@
+{
+  "id": "i-see-colors",
+  "level": "A",
+  "title": "I See Colors",
+  "subtitle": "发现彩色世界",
+  "cover": "/books/i-see-colors/cover.png",
+  "tags": [
+    "发现彩色世界"
+  ],
+  "order": 9,
+  "color": "#abcfc2",
+  "pages": [
+    {
+      "id": "i-see-colors-1",
+      "english": "I see a yellow duck.",
+      "chinese": "我看到一只黄色的鸭子。",
+      "image": "/books/i-see-colors/page-01.png",
+      "alt": "A preschool girl in coral dress observes one yellow duck at a little garden pond.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-01.wav"
+      }
+    },
+    {
+      "id": "i-see-colors-2",
+      "english": "I see a red flower.",
+      "chinese": "我看到一朵红色的花。",
+      "image": "/books/i-see-colors/page-02.png",
+      "alt": "A preschool girl in coral dress observes one vivid red flower in a garden.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-02.wav"
+      }
+    },
+    {
+      "id": "i-see-colors-3",
+      "english": "I see a blue butterfly.",
+      "chinese": "我看到一只蓝色的蝴蝶。",
+      "image": "/books/i-see-colors/page-03.png",
+      "alt": "A preschool girl in coral dress watches a large blue butterfly near her hand.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-03.wav"
+      }
+    },
+    {
+      "id": "i-see-colors-4",
+      "english": "I see a green frog.",
+      "chinese": "我看到一只绿色的青蛙。",
+      "image": "/books/i-see-colors/page-04.png",
+      "alt": "A preschool girl in coral dress observes one green frog on a lily pad.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-04.wav"
+      }
+    },
+    {
+      "id": "i-see-colors-5",
+      "english": "I see a purple kite.",
+      "chinese": "我看到一只紫色的风筝。",
+      "image": "/books/i-see-colors/page-05.png",
+      "alt": "A preschool girl in coral dress looks at a clearly purple kite in the blue sky.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-05.wav"
+      }
+    },
+    {
+      "id": "i-see-colors-6",
+      "english": "I see an orange fish.",
+      "chinese": "我看到一条橙色的鱼。",
+      "image": "/books/i-see-colors/page-06.png",
+      "alt": "A preschool girl in coral dress observes one orange fish swimming in a clear garden pond.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-see-colors/page-06.wav"
+      }
+    }
+  ]
+}

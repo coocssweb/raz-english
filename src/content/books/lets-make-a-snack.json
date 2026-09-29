@@ -1,0 +1,80 @@
+{
+  "id": "lets-make-a-snack",
+  "level": "A",
+  "title": "Let's Make a Snack",
+  "subtitle": "一起做点心",
+  "cover": "/books/lets-make-a-snack/cover.png",
+  "tags": [
+    "一起做点心"
+  ],
+  "order": 13,
+  "color": "#deb6a0",
+  "pages": [
+    {
+      "id": "lets-make-a-snack-1",
+      "english": "I wash my hands.",
+      "chinese": "我洗手。",
+      "image": "/books/lets-make-a-snack/page-01.png",
+      "alt": "A preschool child in mint apron washes hands with soap at a low kitchen sink.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-01.wav"
+      }
+    },
+    {
+      "id": "lets-make-a-snack-2",
+      "english": "I get a little bowl.",
+      "chinese": "我拿来一个小碗。",
+      "image": "/books/lets-make-a-snack/page-02.png",
+      "alt": "A preschool child in mint apron places an empty yellow bowl on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-02.wav"
+      }
+    },
+    {
+      "id": "lets-make-a-snack-3",
+      "english": "I put fruit in a bowl.",
+      "chinese": "我把水果放进碗里。",
+      "image": "/books/lets-make-a-snack/page-03.png",
+      "alt": "A preschool child in mint apron puts banana slices and berries in a yellow bowl.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-03.wav"
+      }
+    },
+    {
+      "id": "lets-make-a-snack-4",
+      "english": "I add some yogurt.",
+      "chinese": "我加一些酸奶。",
+      "image": "/books/lets-make-a-snack/page-04.png",
+      "alt": "A preschool child in mint apron pours a little white yogurt from a small jug into a yellow bowl of fruit.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-04.wav"
+      }
+    },
+    {
+      "id": "lets-make-a-snack-5",
+      "english": "I mix it with a spoon.",
+      "chinese": "我用勺子搅拌。",
+      "image": "/books/lets-make-a-snack/page-05.png",
+      "alt": "A preschool child in mint apron mixes fruit and yogurt in a yellow bowl with a spoon.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-05.wav"
+      }
+    },
+    {
+      "id": "lets-make-a-snack-6",
+      "english": "I share my yummy snack.",
+      "chinese": "我分享美味的点心。",
+      "image": "/books/lets-make-a-snack/page-06.png",
+      "alt": "A preschool child in mint apron shares two yellow bowls of fruit yogurt with a friend at a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/lets-make-a-snack/page-06.wav"
+      }
+    }
+  ]
+}

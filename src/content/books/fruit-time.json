@@ -1,0 +1,80 @@
+{
+  "id": "fruit-time",
+  "level": "aa",
+  "title": "Fruit Time",
+  "subtitle": "水果时间",
+  "cover": "/books/fruit-time/cover.png",
+  "tags": [
+    "水果时间"
+  ],
+  "order": 3,
+  "color": "#e8b270",
+  "pages": [
+    {
+      "id": "fruit-time-1",
+      "english": "An apple.",
+      "chinese": "一个苹果。",
+      "image": "/books/fruit-time/page-01.png",
+      "alt": "One shiny red apple with a small green leaf on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-01.wav"
+      }
+    },
+    {
+      "id": "fruit-time-2",
+      "english": "A banana.",
+      "chinese": "一根香蕉。",
+      "image": "/books/fruit-time/page-02.png",
+      "alt": "One ripe yellow banana on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-02.wav"
+      }
+    },
+    {
+      "id": "fruit-time-3",
+      "english": "An orange.",
+      "chinese": "一个橙子。",
+      "image": "/books/fruit-time/page-03.png",
+      "alt": "One round orange fruit with dimpled peel and green leaf on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-03.wav"
+      }
+    },
+    {
+      "id": "fruit-time-4",
+      "english": "A pear.",
+      "chinese": "一个梨。",
+      "image": "/books/fruit-time/page-04.png",
+      "alt": "One pale green pear on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-04.wav"
+      }
+    },
+    {
+      "id": "fruit-time-5",
+      "english": "Some grapes.",
+      "chinese": "一些葡萄。",
+      "image": "/books/fruit-time/page-05.png",
+      "alt": "A small bunch of purple grapes on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-05.wav"
+      }
+    },
+    {
+      "id": "fruit-time-6",
+      "english": "A watermelon.",
+      "chinese": "一个西瓜。",
+      "image": "/books/fruit-time/page-06.png",
+      "alt": "One green striped watermelon and a red juicy slice on a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/fruit-time/page-06.wav"
+      }
+    }
+  ]
+}

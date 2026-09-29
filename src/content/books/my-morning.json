@@ -1,0 +1,80 @@
+{
+  "id": "my-morning",
+  "level": "A",
+  "title": "My Morning",
+  "subtitle": "早安，小朋友",
+  "cover": "/books/my-morning/cover.png",
+  "tags": [
+    "早安，小朋友"
+  ],
+  "order": 12,
+  "color": "#efc9a0",
+  "pages": [
+    {
+      "id": "my-morning-1",
+      "english": "I wake up.",
+      "chinese": "我醒来了。",
+      "image": "/books/my-morning/page-01.png",
+      "alt": "A preschool child with black bob hair in yellow pajamas wakes in a small wooden bed with cream quilt.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-01.wav"
+      }
+    },
+    {
+      "id": "my-morning-2",
+      "english": "I wash my face.",
+      "chinese": "我洗脸。",
+      "image": "/books/my-morning/page-02.png",
+      "alt": "A preschool child with black bob hair in yellow pajamas washes face at a low bathroom sink.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-02.wav"
+      }
+    },
+    {
+      "id": "my-morning-3",
+      "english": "I brush my teeth.",
+      "chinese": "我刷牙。",
+      "image": "/books/my-morning/page-03.png",
+      "alt": "A preschool child with black bob hair in yellow pajamas brushes teeth with a small teal toothbrush.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-03.wav"
+      }
+    },
+    {
+      "id": "my-morning-4",
+      "english": "I put on my shirt.",
+      "chinese": "我穿上上衣。",
+      "image": "/books/my-morning/page-04.png",
+      "alt": "A preschool child with black bob hair puts on a coral shirt in a cozy bedroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-04.wav"
+      }
+    },
+    {
+      "id": "my-morning-5",
+      "english": "I eat my breakfast.",
+      "chinese": "我吃早餐。",
+      "image": "/books/my-morning/page-05.png",
+      "alt": "A preschool child with black bob hair wearing a coral shirt eats toast and fruit at a kitchen table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-05.wav"
+      }
+    },
+    {
+      "id": "my-morning-6",
+      "english": "I am ready to play.",
+      "chinese": "我准备好玩耍啦。",
+      "image": "/books/my-morning/page-06.png",
+      "alt": "A preschool child with black bob hair wearing a coral shirt and teal pants waves in a sunny garden.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-morning/page-06.wav"
+      }
+    }
+  ]
+}

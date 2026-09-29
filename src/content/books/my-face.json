@@ -1,0 +1,80 @@
+{
+  "id": "my-face",
+  "level": "aa",
+  "title": "My Face",
+  "subtitle": "认识小脸蛋",
+  "cover": "/books/my-face/cover.png",
+  "tags": [
+    "认识小脸蛋"
+  ],
+  "order": 6,
+  "color": "#e5cda0",
+  "pages": [
+    {
+      "id": "my-face-1",
+      "english": "My eyes.",
+      "chinese": "我的眼睛。",
+      "image": "/books/my-face/page-01.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing gently below both open eyes.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-01.wav"
+      }
+    },
+    {
+      "id": "my-face-2",
+      "english": "My ears.",
+      "chinese": "我的耳朵。",
+      "image": "/books/my-face/page-02.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to her two ears.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-02.wav"
+      }
+    },
+    {
+      "id": "my-face-3",
+      "english": "My nose.",
+      "chinese": "我的鼻子。",
+      "image": "/books/my-face/page-03.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to the tip of her nose.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-03.wav"
+      }
+    },
+    {
+      "id": "my-face-4",
+      "english": "My mouth.",
+      "chinese": "我的嘴巴。",
+      "image": "/books/my-face/page-04.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing beside her smiling mouth.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-04.wav"
+      }
+    },
+    {
+      "id": "my-face-5",
+      "english": "My hair.",
+      "chinese": "我的头发。",
+      "image": "/books/my-face/page-05.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, gently touching the top of her hair.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-05.wav"
+      }
+    },
+    {
+      "id": "my-face-6",
+      "english": "My face.",
+      "chinese": "我的脸。",
+      "image": "/books/my-face/page-06.png",
+      "alt": "Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, smiling with both hands framing her cheeks.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-face/page-06.wav"
+      }
+    }
+  ]
+}

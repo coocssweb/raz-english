@@ -1,0 +1,80 @@
+{
+  "id": "colors-around-me",
+  "level": "aa",
+  "title": "Colors Around Me",
+  "subtitle": "身边的颜色",
+  "cover": "/books/colors-around-me/cover.png",
+  "tags": [
+    "身边的颜色"
+  ],
+  "order": 1,
+  "color": "#f0b8a0",
+  "pages": [
+    {
+      "id": "colors-around-me-1",
+      "english": "A red ball.",
+      "chinese": "一个红色的球。",
+      "image": "/books/colors-around-me/page-01.png",
+      "alt": "One glossy red ball on a light wooden playroom floor.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-01.wav"
+      }
+    },
+    {
+      "id": "colors-around-me-2",
+      "english": "A blue car.",
+      "chinese": "一辆蓝色的车。",
+      "image": "/books/colors-around-me/page-02.png",
+      "alt": "One bright blue toy car on a light wooden playroom floor.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-02.wav"
+      }
+    },
+    {
+      "id": "colors-around-me-3",
+      "english": "A yellow duck.",
+      "chinese": "一只黄色的鸭子。",
+      "image": "/books/colors-around-me/page-03.png",
+      "alt": "One cheerful yellow rubber duck on a light wooden playroom floor.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-03.wav"
+      }
+    },
+    {
+      "id": "colors-around-me-4",
+      "english": "A green leaf.",
+      "chinese": "一片绿色的叶子。",
+      "image": "/books/colors-around-me/page-04.png",
+      "alt": "One fresh vivid green leaf resting on a pale wooden table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-04.wav"
+      }
+    },
+    {
+      "id": "colors-around-me-5",
+      "english": "A pink flower.",
+      "chinese": "一朵粉色的花。",
+      "image": "/books/colors-around-me/page-05.png",
+      "alt": "One pink flower growing in a small terracotta pot on a pale table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-05.wav"
+      }
+    },
+    {
+      "id": "colors-around-me-6",
+      "english": "An orange cup.",
+      "chinese": "一个橙色的杯子。",
+      "image": "/books/colors-around-me/page-06.png",
+      "alt": "One clearly orange cup with a rounded handle on a pale wooden table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/colors-around-me/page-06.wav"
+      }
+    }
+  ]
+}

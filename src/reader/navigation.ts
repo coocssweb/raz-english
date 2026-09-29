@@ -1,0 +1,1 @@
+export function pageAfterAudio(page:number,count:number,auto:boolean,hidden:boolean):{type:'stay'}|{type:'advance';page:number}|{type:'complete'}{if(!auto||hidden)return {type:'stay'};return page>=count-1?{type:'complete'}:{type:'advance',page:page+1};}

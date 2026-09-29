@@ -1,0 +1,80 @@
+{
+  "id": "my-animals",
+  "level": "aa",
+  "title": "My Animals",
+  "subtitle": "我的动物朋友",
+  "cover": "/books/my-animals/cover.png",
+  "tags": [
+    "我的动物朋友"
+  ],
+  "order": 0,
+  "color": "#eac584",
+  "pages": [
+    {
+      "id": "my-animals-1",
+      "english": "A cat.",
+      "chinese": "一只猫。",
+      "image": "/books/my-animals/page-01.png",
+      "alt": "A single adorable orange kitten with cream muzzle sits on a turquoise rug in a cozy playroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-01.wav"
+      }
+    },
+    {
+      "id": "my-animals-2",
+      "english": "A dog.",
+      "chinese": "一只狗。",
+      "image": "/books/my-animals/page-02.png",
+      "alt": "A friendly golden puppy sits on a turquoise rug in a cozy playroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-02.wav"
+      }
+    },
+    {
+      "id": "my-animals-3",
+      "english": "A rabbit.",
+      "chinese": "一只兔子。",
+      "image": "/books/my-animals/page-03.png",
+      "alt": "A fluffy white rabbit with pink ears sits on a turquoise rug in a cozy playroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-03.wav"
+      }
+    },
+    {
+      "id": "my-animals-4",
+      "english": "A bird.",
+      "chinese": "一只小鸟。",
+      "image": "/books/my-animals/page-04.png",
+      "alt": "A cheerful small blue bird perches on a low wooden stand in a cozy playroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-04.wav"
+      }
+    },
+    {
+      "id": "my-animals-5",
+      "english": "A fish.",
+      "chinese": "一条鱼。",
+      "image": "/books/my-animals/page-05.png",
+      "alt": "One bright orange goldfish swims in a clear rounded aquarium with a tiny green plant.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-05.wav"
+      }
+    },
+    {
+      "id": "my-animals-6",
+      "english": "A turtle.",
+      "chinese": "一只乌龟。",
+      "image": "/books/my-animals/page-06.png",
+      "alt": "A friendly little green turtle stands beside a smooth stone in a cozy playroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/my-animals/page-06.wav"
+      }
+    }
+  ]
+}

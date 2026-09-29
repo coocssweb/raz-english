@@ -1,0 +1,80 @@
+{
+  "id": "i-can-move",
+  "level": "A",
+  "title": "I Can Move",
+  "subtitle": "动起来吧",
+  "cover": "/books/i-can-move/cover.png",
+  "tags": [
+    "动起来吧"
+  ],
+  "order": 8,
+  "color": "#efbd86",
+  "pages": [
+    {
+      "id": "i-can-move-1",
+      "english": "I can walk.",
+      "chinese": "我会走路。",
+      "image": "/books/i-can-move/page-01.png",
+      "alt": "A preschool child with short black hair, teal overalls and cream shirt walks along a sunny garden path.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-01.wav"
+      }
+    },
+    {
+      "id": "i-can-move-2",
+      "english": "I can run.",
+      "chinese": "我会跑步。",
+      "image": "/books/i-can-move/page-02.png",
+      "alt": "The same preschool child with short black hair, teal overalls and cream shirt runs across a sunny garden.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-02.wav"
+      }
+    },
+    {
+      "id": "i-can-move-3",
+      "english": "I can jump.",
+      "chinese": "我会跳。",
+      "image": "/books/i-can-move/page-03.png",
+      "alt": "The same preschool child with short black hair, teal overalls and cream shirt jumps joyfully with both feet visibly off the grass.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-03.wav"
+      }
+    },
+    {
+      "id": "i-can-move-4",
+      "english": "I can hop.",
+      "chinese": "我会单脚跳。",
+      "image": "/books/i-can-move/page-04.png",
+      "alt": "The same preschool child with short black hair, teal overalls and cream shirt hops on one foot, other knee lifted.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-04.wav"
+      }
+    },
+    {
+      "id": "i-can-move-5",
+      "english": "I can dance.",
+      "chinese": "我会跳舞。",
+      "image": "/books/i-can-move/page-05.png",
+      "alt": "The same preschool child with short black hair, teal overalls and cream shirt dances with arms out in a sunny garden.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-05.wav"
+      }
+    },
+    {
+      "id": "i-can-move-6",
+      "english": "I can rest.",
+      "chinese": "我会休息。",
+      "image": "/books/i-can-move/page-06.png",
+      "alt": "The same preschool child with short black hair, teal overalls and cream shirt rests sitting under a tree.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/i-can-move/page-06.wav"
+      }
+    }
+  ]
+}

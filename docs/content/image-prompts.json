@@ -1,0 +1,562 @@
+[
+  {
+    "id": "my-animals-1",
+    "path": "public/books/my-animals/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A single adorable orange kitten with cream muzzle sits on a turquoise rug in a cozy playroom."
+  },
+  {
+    "id": "my-animals-2",
+    "path": "public/books/my-animals/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A friendly golden puppy sits on a turquoise rug in a cozy playroom."
+  },
+  {
+    "id": "my-animals-3",
+    "path": "public/books/my-animals/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A fluffy white rabbit with pink ears sits on a turquoise rug in a cozy playroom."
+  },
+  {
+    "id": "my-animals-4",
+    "path": "public/books/my-animals/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A cheerful small blue bird perches on a low wooden stand in a cozy playroom."
+  },
+  {
+    "id": "my-animals-5",
+    "path": "public/books/my-animals/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One bright orange goldfish swims in a clear rounded aquarium with a tiny green plant."
+  },
+  {
+    "id": "my-animals-6",
+    "path": "public/books/my-animals/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A friendly little green turtle stands beside a smooth stone in a cozy playroom."
+  },
+  {
+    "id": "my-animals-cover",
+    "path": "public/books/my-animals/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 我的动物朋友 (My Animals). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A single adorable orange kitten with cream muzzle sits on a turquoise rug in a cozy playroom. A friendly golden puppy sits on a turquoise rug in a cozy playroom. A fluffy white rabbit with pink ears sits on a turquoise rug in a cozy playroom. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "colors-around-me-1",
+    "path": "public/books/colors-around-me/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One glossy red ball on a light wooden playroom floor."
+  },
+  {
+    "id": "colors-around-me-2",
+    "path": "public/books/colors-around-me/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One bright blue toy car on a light wooden playroom floor."
+  },
+  {
+    "id": "colors-around-me-3",
+    "path": "public/books/colors-around-me/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One cheerful yellow rubber duck on a light wooden playroom floor."
+  },
+  {
+    "id": "colors-around-me-4",
+    "path": "public/books/colors-around-me/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One fresh vivid green leaf resting on a pale wooden table."
+  },
+  {
+    "id": "colors-around-me-5",
+    "path": "public/books/colors-around-me/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One pink flower growing in a small terracotta pot on a pale table."
+  },
+  {
+    "id": "colors-around-me-6",
+    "path": "public/books/colors-around-me/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One clearly orange cup with a rounded handle on a pale wooden table."
+  },
+  {
+    "id": "colors-around-me-cover",
+    "path": "public/books/colors-around-me/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 身边的颜色 (Colors Around Me). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: One glossy red ball on a light wooden playroom floor. One bright blue toy car on a light wooden playroom floor. One cheerful yellow rubber duck on a light wooden playroom floor. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "my-toys-1",
+    "path": "public/books/my-toys/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One plush honey brown teddy bear with a teal bow sits in a cozy nursery."
+  },
+  {
+    "id": "my-toys-2",
+    "path": "public/books/my-toys/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One large colorful beach ball rests in a cozy nursery."
+  },
+  {
+    "id": "my-toys-3",
+    "path": "public/books/my-toys/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A small stack of colorful wooden building blocks in a cozy nursery, no letters."
+  },
+  {
+    "id": "my-toys-4",
+    "path": "public/books/my-toys/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A red wooden toy train with two little carriages on a simple track."
+  },
+  {
+    "id": "my-toys-5",
+    "path": "public/books/my-toys/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A bright diamond-shaped kite with ribbon bows leaning in a cozy nursery."
+  },
+  {
+    "id": "my-toys-6",
+    "path": "public/books/my-toys/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A friendly cloth doll in yellow overalls sits in a cozy nursery."
+  },
+  {
+    "id": "my-toys-cover",
+    "path": "public/books/my-toys/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 我的玩具箱 (My Toys). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: One plush honey brown teddy bear with a teal bow sits in a cozy nursery. One large colorful beach ball rests in a cozy nursery. A small stack of colorful wooden building blocks in a cozy nursery, no letters. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "fruit-time-1",
+    "path": "public/books/fruit-time/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One shiny red apple with a small green leaf on a kitchen table."
+  },
+  {
+    "id": "fruit-time-2",
+    "path": "public/books/fruit-time/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One ripe yellow banana on a kitchen table."
+  },
+  {
+    "id": "fruit-time-3",
+    "path": "public/books/fruit-time/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One round orange fruit with dimpled peel and green leaf on a kitchen table."
+  },
+  {
+    "id": "fruit-time-4",
+    "path": "public/books/fruit-time/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One pale green pear on a kitchen table."
+  },
+  {
+    "id": "fruit-time-5",
+    "path": "public/books/fruit-time/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A small bunch of purple grapes on a kitchen table."
+  },
+  {
+    "id": "fruit-time-6",
+    "path": "public/books/fruit-time/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One green striped watermelon and a red juicy slice on a kitchen table."
+  },
+  {
+    "id": "fruit-time-cover",
+    "path": "public/books/fruit-time/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 水果时间 (Fruit Time). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: One shiny red apple with a small green leaf on a kitchen table. One ripe yellow banana on a kitchen table. One round orange fruit with dimpled peel and green leaf on a kitchen table. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "my-family-1",
+    "path": "public/books/my-family/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A kind mother with short black bob hair and coral cardigan waves in a warm family living room."
+  },
+  {
+    "id": "my-family-2",
+    "path": "public/books/my-family/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A kind father with short black hair and blue shirt waves in a warm family living room."
+  },
+  {
+    "id": "my-family-3",
+    "path": "public/books/my-family/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A cheerful girl with black pigtails wearing yellow overalls stands in a warm family living room."
+  },
+  {
+    "id": "my-family-4",
+    "path": "public/books/my-family/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A cheerful little boy with short black hair wearing green overalls stands in a warm family living room."
+  },
+  {
+    "id": "my-family-5",
+    "path": "public/books/my-family/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A smiling grandmother with gray bob hair and lavender cardigan sits in a warm family living room."
+  },
+  {
+    "id": "my-family-6",
+    "path": "public/books/my-family/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A smiling grandfather with gray hair and brown cardigan sits in a warm family living room."
+  },
+  {
+    "id": "my-family-cover",
+    "path": "public/books/my-family/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 温暖的家 (My Family). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A kind mother with short black bob hair and coral cardigan waves in a warm family living room. A kind father with short black hair and blue shirt waves in a warm family living room. A cheerful girl with black pigtails wearing yellow overalls stands in a warm family living room. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "little-clothes-1",
+    "path": "public/books/little-clothes/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One small yellow sunhat on a round nursery stool."
+  },
+  {
+    "id": "little-clothes-2",
+    "path": "public/books/little-clothes/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One small teal shirt on a wooden hanger against a warm nursery wall."
+  },
+  {
+    "id": "little-clothes-3",
+    "path": "public/books/little-clothes/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One pair of small blue pants neatly laid on a nursery stool."
+  },
+  {
+    "id": "little-clothes-4",
+    "path": "public/books/little-clothes/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One pair of small coral striped socks on a nursery stool."
+  },
+  {
+    "id": "little-clothes-5",
+    "path": "public/books/little-clothes/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One pair of cheerful yellow child shoes on a nursery floor."
+  },
+  {
+    "id": "little-clothes-6",
+    "path": "public/books/little-clothes/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One small coral coat hanging on a wooden nursery peg."
+  },
+  {
+    "id": "little-clothes-cover",
+    "path": "public/books/little-clothes/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 穿好小衣服 (Little Clothes). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: One small yellow sunhat on a round nursery stool. One small teal shirt on a wooden hanger against a warm nursery wall. One pair of small blue pants neatly laid on a nursery stool. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "my-face-1",
+    "path": "public/books/my-face/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing gently below both open eyes."
+  },
+  {
+    "id": "my-face-2",
+    "path": "public/books/my-face/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to her two ears."
+  },
+  {
+    "id": "my-face-3",
+    "path": "public/books/my-face/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to the tip of her nose."
+  },
+  {
+    "id": "my-face-4",
+    "path": "public/books/my-face/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing beside her smiling mouth."
+  },
+  {
+    "id": "my-face-5",
+    "path": "public/books/my-face/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, gently touching the top of her hair."
+  },
+  {
+    "id": "my-face-6",
+    "path": "public/books/my-face/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, smiling with both hands framing her cheeks."
+  },
+  {
+    "id": "my-face-cover",
+    "path": "public/books/my-face/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 认识小脸蛋 (My Face). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing gently below both open eyes. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to her two ears. Close portrait of a cheerful preschool girl with black bob hair and yellow shirt, pointing to the tip of her nose. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "on-the-farm-1",
+    "path": "public/books/on-the-farm/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One friendly black and white cow on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-2",
+    "path": "public/books/on-the-farm/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One friendly pink pig on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-3",
+    "path": "public/books/on-the-farm/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One fluffy white sheep on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-4",
+    "path": "public/books/on-the-farm/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One gentle brown horse on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-5",
+    "path": "public/books/on-the-farm/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One cheerful brown hen on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-6",
+    "path": "public/books/on-the-farm/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. One friendly little white goat with small horns on a sunny farm with a distant red barn."
+  },
+  {
+    "id": "on-the-farm-cover",
+    "path": "public/books/on-the-farm/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 农场的一天 (On the Farm). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: One friendly black and white cow on a sunny farm with a distant red barn. One friendly pink pig on a sunny farm with a distant red barn. One fluffy white sheep on a sunny farm with a distant red barn. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "i-can-move-1",
+    "path": "public/books/i-can-move/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair, teal overalls and cream shirt walks along a sunny garden path."
+  },
+  {
+    "id": "i-can-move-2",
+    "path": "public/books/i-can-move/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. The same preschool child with short black hair, teal overalls and cream shirt runs across a sunny garden."
+  },
+  {
+    "id": "i-can-move-3",
+    "path": "public/books/i-can-move/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. The same preschool child with short black hair, teal overalls and cream shirt jumps joyfully with both feet visibly off the grass."
+  },
+  {
+    "id": "i-can-move-4",
+    "path": "public/books/i-can-move/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. The same preschool child with short black hair, teal overalls and cream shirt hops on one foot, other knee lifted."
+  },
+  {
+    "id": "i-can-move-5",
+    "path": "public/books/i-can-move/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. The same preschool child with short black hair, teal overalls and cream shirt dances with arms out in a sunny garden."
+  },
+  {
+    "id": "i-can-move-6",
+    "path": "public/books/i-can-move/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. The same preschool child with short black hair, teal overalls and cream shirt rests sitting under a tree."
+  },
+  {
+    "id": "i-can-move-cover",
+    "path": "public/books/i-can-move/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 动起来吧 (I Can Move). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child with short black hair, teal overalls and cream shirt walks along a sunny garden path. The same preschool child with short black hair, teal overalls and cream shirt runs across a sunny garden. The same preschool child with short black hair, teal overalls and cream shirt jumps joyfully with both feet visibly off the grass. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "i-see-colors-1",
+    "path": "public/books/i-see-colors/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress observes one yellow duck at a little garden pond."
+  },
+  {
+    "id": "i-see-colors-2",
+    "path": "public/books/i-see-colors/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress observes one vivid red flower in a garden."
+  },
+  {
+    "id": "i-see-colors-3",
+    "path": "public/books/i-see-colors/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress watches a large blue butterfly near her hand."
+  },
+  {
+    "id": "i-see-colors-4",
+    "path": "public/books/i-see-colors/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress observes one green frog on a lily pad."
+  },
+  {
+    "id": "i-see-colors-5",
+    "path": "public/books/i-see-colors/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress looks at a clearly purple kite in the blue sky."
+  },
+  {
+    "id": "i-see-colors-6",
+    "path": "public/books/i-see-colors/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool girl in coral dress observes one orange fish swimming in a clear garden pond."
+  },
+  {
+    "id": "i-see-colors-cover",
+    "path": "public/books/i-see-colors/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 发现彩色世界 (I See Colors). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool girl in coral dress observes one yellow duck at a little garden pond. A preschool girl in coral dress observes one vivid red flower in a garden. A preschool girl in coral dress watches a large blue butterfly near her hand. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "a-little-seed-1",
+    "path": "public/books/a-little-seed/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow overalls shows a single brown seed on an open palm beside an empty terracotta pot."
+  },
+  {
+    "id": "a-little-seed-2",
+    "path": "public/books/a-little-seed/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow overalls places a brown seed into soil in a terracotta pot."
+  },
+  {
+    "id": "a-little-seed-3",
+    "path": "public/books/a-little-seed/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow overalls carefully waters soil in a terracotta pot with a small green watering can."
+  },
+  {
+    "id": "a-little-seed-4",
+    "path": "public/books/a-little-seed/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A terracotta pot filled with moist soil stands on a sunny windowsill with warm sun rays."
+  },
+  {
+    "id": "a-little-seed-5",
+    "path": "public/books/a-little-seed/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A tiny bright green two-leaf sprout emerges from soil in a terracotta pot on a sunny windowsill."
+  },
+  {
+    "id": "a-little-seed-6",
+    "path": "public/books/a-little-seed/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow overalls admires one yellow flower on a green plant in the same terracotta pot."
+  },
+  {
+    "id": "a-little-seed-cover",
+    "path": "public/books/a-little-seed/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 一颗小种子 (A Little Seed). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child in yellow overalls shows a single brown seed on an open palm beside an empty terracotta pot. A preschool child in yellow overalls places a brown seed into soil in a terracotta pot. A preschool child in yellow overalls carefully waters soil in a terracotta pot with a small green watering can. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "where-is-bear-1",
+    "path": "public/books/where-is-bear/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A honey brown teddy bear with a teal bow sits clearly ON TOP of a small wooden bed with cream quilt."
+  },
+  {
+    "id": "where-is-bear-2",
+    "path": "public/books/where-is-bear/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A honey brown teddy bear with a teal bow sits clearly UNDER a small wooden chair, chair seat directly above bear."
+  },
+  {
+    "id": "where-is-bear-3",
+    "path": "public/books/where-is-bear/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A honey brown teddy bear with a teal bow sits INSIDE an open coral toy box, its head visible above the rim."
+  },
+  {
+    "id": "where-is-bear-4",
+    "path": "public/books/where-is-bear/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A honey brown teddy bear with a teal bow peeks from BEHIND a partly open mint bedroom door."
+  },
+  {
+    "id": "where-is-bear-5",
+    "path": "public/books/where-is-bear/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A honey brown teddy bear with a teal bow sits BESIDE a small rounded yellow lamp on a safe low table."
+  },
+  {
+    "id": "where-is-bear-6",
+    "path": "public/books/where-is-bear/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow pajamas warmly hugs a honey brown teddy bear with a teal bow."
+  },
+  {
+    "id": "where-is-bear-cover",
+    "path": "public/books/where-is-bear/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 小熊在哪里 (Where Is Bear?). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A honey brown teddy bear with a teal bow sits clearly ON TOP of a small wooden bed with cream quilt. A honey brown teddy bear with a teal bow sits clearly UNDER a small wooden chair, chair seat directly above bear. A honey brown teddy bear with a teal bow sits INSIDE an open coral toy box, its head visible above the rim. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "my-morning-1",
+    "path": "public/books/my-morning/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair in yellow pajamas wakes in a small wooden bed with cream quilt."
+  },
+  {
+    "id": "my-morning-2",
+    "path": "public/books/my-morning/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair in yellow pajamas washes face at a low bathroom sink."
+  },
+  {
+    "id": "my-morning-3",
+    "path": "public/books/my-morning/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair in yellow pajamas brushes teeth with a small teal toothbrush."
+  },
+  {
+    "id": "my-morning-4",
+    "path": "public/books/my-morning/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair puts on a coral shirt in a cozy bedroom."
+  },
+  {
+    "id": "my-morning-5",
+    "path": "public/books/my-morning/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair wearing a coral shirt eats toast and fruit at a kitchen table."
+  },
+  {
+    "id": "my-morning-6",
+    "path": "public/books/my-morning/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with black bob hair wearing a coral shirt and teal pants waves in a sunny garden."
+  },
+  {
+    "id": "my-morning-cover",
+    "path": "public/books/my-morning/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 早安，小朋友 (My Morning). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child with black bob hair in yellow pajamas wakes in a small wooden bed with cream quilt. A preschool child with black bob hair in yellow pajamas washes face at a low bathroom sink. A preschool child with black bob hair in yellow pajamas brushes teeth with a small teal toothbrush. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "lets-make-a-snack-1",
+    "path": "public/books/lets-make-a-snack/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron washes hands with soap at a low kitchen sink."
+  },
+  {
+    "id": "lets-make-a-snack-2",
+    "path": "public/books/lets-make-a-snack/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron places an empty yellow bowl on a kitchen table."
+  },
+  {
+    "id": "lets-make-a-snack-3",
+    "path": "public/books/lets-make-a-snack/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron puts banana slices and berries in a yellow bowl."
+  },
+  {
+    "id": "lets-make-a-snack-4",
+    "path": "public/books/lets-make-a-snack/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron pours a little white yogurt from a small jug into a yellow bowl of fruit."
+  },
+  {
+    "id": "lets-make-a-snack-5",
+    "path": "public/books/lets-make-a-snack/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron mixes fruit and yogurt in a yellow bowl with a spoon."
+  },
+  {
+    "id": "lets-make-a-snack-6",
+    "path": "public/books/lets-make-a-snack/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in mint apron shares two yellow bowls of fruit yogurt with a friend at a kitchen table."
+  },
+  {
+    "id": "lets-make-a-snack-cover",
+    "path": "public/books/lets-make-a-snack/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 一起做点心 (Let's Make a Snack). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child in mint apron washes hands with soap at a low kitchen sink. A preschool child in mint apron places an empty yellow bowl on a kitchen table. A preschool child in mint apron puts banana slices and berries in a yellow bowl. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "a-rainy-day-1",
+    "path": "public/books/a-rainy-day/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair wearing a yellow raincoat watches raindrops through a window."
+  },
+  {
+    "id": "a-rainy-day-2",
+    "path": "public/books/a-rainy-day/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair wearing a yellow raincoat pulls on bright red rain boots."
+  },
+  {
+    "id": "a-rainy-day-3",
+    "path": "public/books/a-rainy-day/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair in yellow raincoat and red rain boots holds a small teal umbrella."
+  },
+  {
+    "id": "a-rainy-day-4",
+    "path": "public/books/a-rainy-day/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair in yellow raincoat and red rain boots joyfully splashes in a shallow puddle holding a teal umbrella."
+  },
+  {
+    "id": "a-rainy-day-5",
+    "path": "public/books/a-rainy-day/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow raincoat and red boots lowers a closed teal umbrella as sunlight comes out after rain."
+  },
+  {
+    "id": "a-rainy-day-6",
+    "path": "public/books/a-rainy-day/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in yellow raincoat and red boots looks at a bright rainbow above a green garden."
+  },
+  {
+    "id": "a-rainy-day-cover",
+    "path": "public/books/a-rainy-day/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 下雨也快乐 (A Rainy Day). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child with short black hair wearing a yellow raincoat watches raindrops through a window. A preschool child with short black hair wearing a yellow raincoat pulls on bright red rain boots. A preschool child with short black hair in yellow raincoat and red rain boots holds a small teal umbrella. Main subject large and centered, cozy storybook atmosphere."
+  },
+  {
+    "id": "time-for-bed-1",
+    "path": "public/books/time-for-bed/page-01.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair in pale blue star pajamas puts wooden toys in a basket, warm evening light."
+  },
+  {
+    "id": "time-for-bed-2",
+    "path": "public/books/time-for-bed/page-02.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A cheerful preschool child with short black hair takes a bath, completely covered below shoulders by dense bubbles, modest child-safe scene."
+  },
+  {
+    "id": "time-for-bed-3",
+    "path": "public/books/time-for-bed/page-03.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child with short black hair now fully dressed in pale blue star pajamas stands smiling by the bed."
+  },
+  {
+    "id": "time-for-bed-4",
+    "path": "public/books/time-for-bed/page-04.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in pale blue star pajamas reads a picture book with a father in navy cardigan in a cozy bedroom."
+  },
+  {
+    "id": "time-for-bed-5",
+    "path": "public/books/time-for-bed/page-05.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in pale blue star pajamas hugs a honey brown teddy bear under a cream quilt."
+  },
+  {
+    "id": "time-for-bed-6",
+    "path": "public/books/time-for-bed/page-06.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. A preschool child in pale blue star pajamas sleeps peacefully under a cream quilt, honey brown teddy bear beside them, gentle moonlight."
+  },
+  {
+    "id": "time-for-bed-cover",
+    "path": "public/books/time-for-bed/cover.png",
+    "prompt": "Use case: illustration-story. One finished square children's picture-book illustration for ages 3-6. Premium charming 3D animated-film render, rounded toy-like forms, tactile soft materials, warm gentle lighting, clean readable composition, rich but gentle colors. NO text, letters, logos, watermark, collage, or borders. Cover artwork for an original early reader about 晚安，好梦 (Time for Bed). No written title; title will be added in website HTML. Create a cohesive appealing scene showing these motifs: A preschool child with short black hair in pale blue star pajamas puts wooden toys in a basket, warm evening light. A cheerful preschool child with short black hair takes a bath, completely covered below shoulders by dense bubbles, modest child-safe scene. A preschool child with short black hair now fully dressed in pale blue star pajamas stands smiling by the bed. Main subject large and centered, cozy storybook atmosphere."
+  }
+]

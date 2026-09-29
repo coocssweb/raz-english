@@ -1,0 +1,3 @@
+import { useState } from 'react';
+import { ImageOff, RotateCcw } from 'lucide-react';
+export function BookImage({ src, alt, className = '', eager = false }: { src: string; alt: string; className?: string; eager?: boolean }) { const [error, setError] = useState(false), [attempt, setAttempt] = useState(0); return error ? <div className={`image-error ${className}`}><ImageOff size={28} /><span>这张图正在路上</span><button onClick={() => { setError(false); setAttempt(n => n + 1); }}><RotateCcw size={16} />重新加载</button></div> : <img key={`${src}-${attempt}`} className={className} src={attempt ? `${src}?retry=${attempt}` : src} alt={alt} loading={eager ? 'eager' : 'lazy'} onError={() => setError(true)} />; }

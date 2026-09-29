@@ -1,0 +1,78 @@
+/* Full-page scenery, with a quiet central surface for the books. */
+.app.app-shelf{position:relative;isolation:isolate;background:var(--paper);overflow:clip}
+.theme-backdrop{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.theme-landscape{position:absolute;inset:0;background-image: url('/themes/giraffe-scene.svg');background-size:1200px 650px;background-position:center top}
+[data-theme=pig] .theme-landscape{background-image:url('/themes/pig-scene.svg')}
+[data-theme=pip-posy] .theme-landscape{background-image:url('/themes/pip-posy-scene.svg')}
+[data-theme=panda] .theme-landscape{background-image:url('/themes/panda-scene.svg')}
+.scene-friend{position:absolute;right:max(12px,calc((100% - 1250px)/2));top:105px;width:310px;height:310px;object-fit:contain;mix-blend-mode:multiply;mask-image:radial-gradient(ellipse at 50% 47%,#000 42%,transparent 72%);transform:rotate(5deg)}
+.scene-ground{position:absolute;bottom:-70px;left:-10%;width:120%;height:220px;border-radius:50% 50% 0 0;background:var(--soft);opacity:.75}
+.app-shelf .site-header{border:0;background:color-mix(in srgb,var(--paper) 88%,transparent)}
+.app-shelf .shelf-main{padding-top:38px;padding-bottom:54px}
+.app-shelf .shelf-topline{padding:0 260px 24px 0;min-height:70px;gap:18px}
+.shelf-heading h1{font-size:28px;font-weight:900;white-space:nowrap}
+.shelf-title-icon{display:grid;place-items:center;width:52px;height:52px;border-radius:19px;background:var(--accent);color:white;transform:rotate(-8deg);box-shadow:0 5px 0 var(--accent-dark)}
+.app-shelf .shelf-toolbar{border:0;padding:12px 260px 25px 0;margin-bottom:12px}
+.app-shelf .book-grid{position:relative;padding:24px 24px 30px;border:2px solid #fff9;border-radius:30px;background:color-mix(in srgb,var(--paper) 86%,transparent);gap:42px 38px}
+.app-shelf .continue-strip{margin:0 260px 26px 0}
+.app-shelf footer{position:relative;justify-content:center;border:0;padding:24px 12px 30px;color:var(--accent-dark)}
+
+/* A solid lower edge collapses while pressed, without moving the hit area. */
+.site-header nav{gap:14px}
+.site-header nav>a,.theme-button,.level-tabs button,.today-chip,.continue-strip,.theme-option,.theme-dialog .icon-button{
+ --button-edge:color-mix(in srgb,var(--accent) 35%,var(--paper));
+ border:2px solid color-mix(in srgb,var(--accent) 22%,var(--paper));
+ border-radius:18px;background:var(--paper);color:var(--accent-dark);
+ box-shadow:0 5px 0 var(--button-edge);translate:0 0;
+ transition:translate 140ms ease,box-shadow 140ms ease,background-color 140ms ease;
+}
+.site-header nav>a,.theme-button{padding:0 17px;min-height:52px;font-weight:800}
+.site-header nav>a.selected,.level-tabs button.active{--button-edge:var(--accent-dark);background:var(--accent);border-color:var(--accent);color:#fff}
+.site-header nav>a.selected:after{display:none}
+.theme-button{background:var(--theme-tint)}
+.level-tabs{gap:14px}
+.level-tabs button{min-height:56px;padding:0 22px;font-weight:800}
+.level-tabs b{font-size:23px}
+.today-chip{min-height:48px;font-weight:700;white-space:nowrap}
+.theme-option{padding:12px;margin-bottom:6px;border-radius:22px}
+.theme-option.chosen{border-color:var(--accent);background:var(--soft);--button-edge:var(--accent-dark)}
+.theme-dialog{max-height:calc(100dvh - 32px);overflow:auto}
+.theme-dialog .icon-button{flex-shrink:0}
+@media(hover:hover){
+ .site-header nav>a:hover,.theme-button:hover,.level-tabs button:hover,.today-chip:hover,.continue-strip:hover,.theme-option:hover,.theme-dialog .icon-button:hover{translate:0 -2px;box-shadow:0 7px 0 var(--button-edge)}
+}
+.site-header nav>a:active,.theme-button:active,.level-tabs button:active,.today-chip:active,.continue-strip:active,.theme-option:active,.theme-dialog .icon-button:active{translate:0 4px;box-shadow:0 1px 0 var(--button-edge);transition-duration:60ms}
+.book-play{display:grid;width:44px;height:44px;top:12px;bottom:auto;right:12px;border:2px solid #fff;color:var(--accent);background:#fffdf3;box-shadow:0 4px 0 #b8b39c;transition:transform 120ms,box-shadow 120ms}
+.book-card:active .book-object{transform:translateY(4px) scale(.98);box-shadow:2px 2px 0 #efe7d5,3px 3px 0 #c1b49b,0 3px 6px #4d382321;transition-duration:60ms}
+.book-card:active .book-play{transform:translateY(3px);box-shadow:0 1px 0 #b8b39c}
+.book-card:focus-visible{outline-offset:9px;border-radius:12px}
+.book-card:focus-visible .book-object{transform:rotate(0) translateY(-4px)}
+.book-caption p{color:#6e7561}
+@media(max-width:1000px){
+ .scene-friend{width:230px;height:230px;right:0;top:105px}
+ .app-shelf .shelf-topline,.app-shelf .shelf-toolbar{padding-right:190px}
+ .app-shelf .continue-strip{margin-right:190px}
+ .shelf-heading h1{font-size:24px}
+ .app-shelf .shelf-topline{flex-wrap:wrap}
+ .app-shelf .book-grid{gap:38px 24px;padding:22px 18px 30px}
+}
+@media(max-width:760px){
+ .site-header nav{gap:10px}.site-header nav>a,.theme-button{padding:0;min-width:48px;min-height:48px;border-radius:16px}
+ .app-shelf .shelf-main{padding:28px 18px 35px}
+ .scene-friend{width:185px;height:185px;top:95px;right:-18px}
+ .theme-landscape{background-size:760px 560px}
+ .app-shelf .shelf-topline{padding:0 135px 16px 0;gap:16px}
+ .shelf-heading{gap:10px}.shelf-heading h1{font-size:22px}.shelf-title-icon{width:42px;height:44px;border-radius:15px}
+ .today-chip{font-size:11px;padding:5px 9px}
+ .app-shelf .shelf-toolbar{padding:12px 0 20px;gap:8px}
+ .level-tabs{gap:10px}.level-tabs button{padding:0 13px;gap:7px;min-height:52px;font-size:12px}
+ .level-tabs b{font-size:21px}.book-count{padding:4px 6px;white-space:nowrap}
+ .app-shelf .continue-strip{margin:0 0 24px;padding:12px}
+ .app-shelf .book-grid{padding:20px 12px 26px;gap:32px 24px;border-radius:23px}
+ .book-play{width:38px;height:38px;right:8px;top:10px}.book-play svg{width:17px}
+ .app-shelf footer{margin:0 18px;font-size:10px}
+}
+@media(max-width:370px){
+ .brand strong{font-size:15px;letter-spacing:0}.brand{gap:7px}.brand-icon{width:34px;height:38px}.site-header{padding:0 10px}.site-header nav{gap:7px}
+ .level-tabs button{padding:0 10px;font-size:11px}.shelf-heading h1{font-size:19px}.app-shelf .shelf-topline{padding-right:110px}.scene-friend{width:160px}
+}

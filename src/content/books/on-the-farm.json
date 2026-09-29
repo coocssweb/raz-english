@@ -1,0 +1,80 @@
+{
+  "id": "on-the-farm",
+  "level": "aa",
+  "title": "On the Farm",
+  "subtitle": "农场的一天",
+  "cover": "/books/on-the-farm/cover.png",
+  "tags": [
+    "农场的一天"
+  ],
+  "order": 7,
+  "color": "#b7ce9b",
+  "pages": [
+    {
+      "id": "on-the-farm-1",
+      "english": "A cow.",
+      "chinese": "一头奶牛。",
+      "image": "/books/on-the-farm/page-01.png",
+      "alt": "One friendly black and white cow on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-01.wav"
+      }
+    },
+    {
+      "id": "on-the-farm-2",
+      "english": "A pig.",
+      "chinese": "一只猪。",
+      "image": "/books/on-the-farm/page-02.png",
+      "alt": "One friendly pink pig on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-02.wav"
+      }
+    },
+    {
+      "id": "on-the-farm-3",
+      "english": "A sheep.",
+      "chinese": "一只绵羊。",
+      "image": "/books/on-the-farm/page-03.png",
+      "alt": "One fluffy white sheep on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-03.wav"
+      }
+    },
+    {
+      "id": "on-the-farm-4",
+      "english": "A horse.",
+      "chinese": "一匹马。",
+      "image": "/books/on-the-farm/page-04.png",
+      "alt": "One gentle brown horse on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-04.wav"
+      }
+    },
+    {
+      "id": "on-the-farm-5",
+      "english": "A hen.",
+      "chinese": "一只母鸡。",
+      "image": "/books/on-the-farm/page-05.png",
+      "alt": "One cheerful brown hen on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-05.wav"
+      }
+    },
+    {
+      "id": "on-the-farm-6",
+      "english": "A goat.",
+      "chinese": "一只山羊。",
+      "image": "/books/on-the-farm/page-06.png",
+      "alt": "One friendly little white goat with small horns on a sunny farm with a distant red barn.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/on-the-farm/page-06.wav"
+      }
+    }
+  ]
+}

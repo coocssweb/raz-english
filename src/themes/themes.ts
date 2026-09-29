@@ -1,0 +1,3 @@
+export type ThemeId='giraffe'|'pig'|'pip-posy'|'panda';
+export const themes:Record<ThemeId,{name:string;english:string;description:string;color:string}>={giraffe:{name:'长颈鹿小屋',english:'Giraffe Garden',description:'阳光、木头与小小斑点',color:'#d2a454'},pig:{name:'小猪佩奇',english:'Peppa’s Playroom',description:'粉色小屋里的快乐时光',color:'#d78898'},'pip-posy':{name:'波西和皮普',english:'Pip & Posy',description:'和好朋友一起窝在软垫上',color:'#91aaa8'},panda:{name:'熊猫竹林',english:'Panda Forest',description:'竹叶轻轻，书香慢慢',color:'#719c7d'}};
+export function loadTheme():ThemeId{try{const value=localStorage.getItem('reading-theme');return value&&value in themes?value as ThemeId:'giraffe';}catch{return 'giraffe';}}

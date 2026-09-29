@@ -1,0 +1,80 @@
+{
+  "id": "where-is-bear",
+  "level": "A",
+  "title": "Where Is Bear?",
+  "subtitle": "小熊在哪里",
+  "cover": "/books/where-is-bear/cover.png",
+  "tags": [
+    "小熊在哪里"
+  ],
+  "order": 11,
+  "color": "#c6bddb",
+  "pages": [
+    {
+      "id": "where-is-bear-1",
+      "english": "Bear is on the bed.",
+      "chinese": "小熊在床上。",
+      "image": "/books/where-is-bear/page-01.png",
+      "alt": "A honey brown teddy bear with a teal bow sits clearly ON TOP of a small wooden bed with cream quilt.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-01.wav"
+      }
+    },
+    {
+      "id": "where-is-bear-2",
+      "english": "Bear is under the chair.",
+      "chinese": "小熊在椅子下面。",
+      "image": "/books/where-is-bear/page-02.png",
+      "alt": "A honey brown teddy bear with a teal bow sits clearly UNDER a small wooden chair, chair seat directly above bear.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-02.wav"
+      }
+    },
+    {
+      "id": "where-is-bear-3",
+      "english": "Bear is in the box.",
+      "chinese": "小熊在盒子里。",
+      "image": "/books/where-is-bear/page-03.png",
+      "alt": "A honey brown teddy bear with a teal bow sits INSIDE an open coral toy box, its head visible above the rim.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-03.wav"
+      }
+    },
+    {
+      "id": "where-is-bear-4",
+      "english": "Bear is behind the door.",
+      "chinese": "小熊在门后面。",
+      "image": "/books/where-is-bear/page-04.png",
+      "alt": "A honey brown teddy bear with a teal bow peeks from BEHIND a partly open mint bedroom door.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-04.wav"
+      }
+    },
+    {
+      "id": "where-is-bear-5",
+      "english": "Bear is beside the lamp.",
+      "chinese": "小熊在台灯旁边。",
+      "image": "/books/where-is-bear/page-05.png",
+      "alt": "A honey brown teddy bear with a teal bow sits BESIDE a small rounded yellow lamp on a safe low table.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-05.wav"
+      }
+    },
+    {
+      "id": "where-is-bear-6",
+      "english": "Bear is with me.",
+      "chinese": "小熊和我在一起。",
+      "image": "/books/where-is-bear/page-06.png",
+      "alt": "A preschool child in yellow pajamas warmly hugs a honey brown teddy bear with a teal bow.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/where-is-bear/page-06.wav"
+      }
+    }
+  ]
+}

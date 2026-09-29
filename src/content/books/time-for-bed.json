@@ -1,0 +1,80 @@
+{
+  "id": "time-for-bed",
+  "level": "A",
+  "title": "Time for Bed",
+  "subtitle": "晚安，好梦",
+  "cover": "/books/time-for-bed/cover.png",
+  "tags": [
+    "晚安，好梦"
+  ],
+  "order": 15,
+  "color": "#b8bad5",
+  "pages": [
+    {
+      "id": "time-for-bed-1",
+      "english": "I put my toys away.",
+      "chinese": "我收好玩具。",
+      "image": "/books/time-for-bed/page-01.png",
+      "alt": "A preschool child with short black hair in pale blue star pajamas puts wooden toys in a basket, warm evening light.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-01.wav"
+      }
+    },
+    {
+      "id": "time-for-bed-2",
+      "english": "I take a warm bath.",
+      "chinese": "我洗个温暖的澡。",
+      "image": "/books/time-for-bed/page-02.png",
+      "alt": "A cheerful preschool child with short black hair takes a bath, completely covered below shoulders by dense bubbles, modest child-safe scene.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-02.wav"
+      }
+    },
+    {
+      "id": "time-for-bed-3",
+      "english": "I put on my pajamas.",
+      "chinese": "我穿上睡衣。",
+      "image": "/books/time-for-bed/page-03.png",
+      "alt": "A preschool child with short black hair now fully dressed in pale blue star pajamas stands smiling by the bed.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-03.wav"
+      }
+    },
+    {
+      "id": "time-for-bed-4",
+      "english": "I read with my dad.",
+      "chinese": "我和爸爸一起读书。",
+      "image": "/books/time-for-bed/page-04.png",
+      "alt": "A preschool child in pale blue star pajamas reads a picture book with a father in navy cardigan in a cozy bedroom.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-04.wav"
+      }
+    },
+    {
+      "id": "time-for-bed-5",
+      "english": "I hug my teddy bear.",
+      "chinese": "我抱抱我的泰迪熊。",
+      "image": "/books/time-for-bed/page-05.png",
+      "alt": "A preschool child in pale blue star pajamas hugs a honey brown teddy bear under a cream quilt.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-05.wav"
+      }
+    },
+    {
+      "id": "time-for-bed-6",
+      "english": "I close my sleepy eyes.",
+      "chinese": "我闭上困倦的眼睛。",
+      "image": "/books/time-for-bed/page-06.png",
+      "alt": "A preschool child in pale blue star pajamas sleeps peacefully under a cream quilt, honey brown teddy bear beside them, gentle moonlight.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/time-for-bed/page-06.wav"
+      }
+    }
+  ]
+}

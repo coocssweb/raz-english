@@ -1,0 +1,80 @@
+{
+  "id": "little-clothes",
+  "level": "aa",
+  "title": "Little Clothes",
+  "subtitle": "穿好小衣服",
+  "cover": "/books/little-clothes/cover.png",
+  "tags": [
+    "穿好小衣服"
+  ],
+  "order": 5,
+  "color": "#bfc6d9",
+  "pages": [
+    {
+      "id": "little-clothes-1",
+      "english": "My hat.",
+      "chinese": "我的帽子。",
+      "image": "/books/little-clothes/page-01.png",
+      "alt": "One small yellow sunhat on a round nursery stool.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-01.wav"
+      }
+    },
+    {
+      "id": "little-clothes-2",
+      "english": "My shirt.",
+      "chinese": "我的上衣。",
+      "image": "/books/little-clothes/page-02.png",
+      "alt": "One small teal shirt on a wooden hanger against a warm nursery wall.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-02.wav"
+      }
+    },
+    {
+      "id": "little-clothes-3",
+      "english": "My pants.",
+      "chinese": "我的裤子。",
+      "image": "/books/little-clothes/page-03.png",
+      "alt": "One pair of small blue pants neatly laid on a nursery stool.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-03.wav"
+      }
+    },
+    {
+      "id": "little-clothes-4",
+      "english": "My socks.",
+      "chinese": "我的袜子。",
+      "image": "/books/little-clothes/page-04.png",
+      "alt": "One pair of small coral striped socks on a nursery stool.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-04.wav"
+      }
+    },
+    {
+      "id": "little-clothes-5",
+      "english": "My shoes.",
+      "chinese": "我的鞋子。",
+      "image": "/books/little-clothes/page-05.png",
+      "alt": "One pair of cheerful yellow child shoes on a nursery floor.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-05.wav"
+      }
+    },
+    {
+      "id": "little-clothes-6",
+      "english": "My coat.",
+      "chinese": "我的外套。",
+      "image": "/books/little-clothes/page-06.png",
+      "alt": "One small coral coat hanging on a wooden nursery peg.",
+      "audio": {
+        "kind": "file",
+        "src": "/audio/little-clothes/page-06.wav"
+      }
+    }
+  ]
+}
