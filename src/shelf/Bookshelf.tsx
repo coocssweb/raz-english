@@ -68,30 +68,7 @@ export function Bookshelf() {
 
   return (
     <main className="shelf-main">
-      <div className="shelf-topline">
-        <div className="shelf-heading">
-          <div className="shelf-title-icon" aria-hidden="true">
-            <BookOpen size={26} />
-          </div>
-          <div>
-            <h1>探索绘本世界</h1>
-            <p>每一本都是一个精彩小故事</p>
-          </div>
-        </div>
 
-        {summary.activeMs > 0 && (
-          <div className="today-chip" aria-label="今日阅读统计">
-            <Clock3 size={16} />
-            <span>今日阅读 <strong>{formatDuration(summary.activeMs)}</strong></span>
-            {summary.completionCount > 0 && (
-              <>
-                <span className="chip-dot" aria-hidden="true">·</span>
-                <span>读完 <strong>{summary.completionCount}</strong> 本</span>
-              </>
-            )}
-          </div>
-        )}
-      </div>
 
       <div className="shelf-toolbar">
         <div className="level-tabs" aria-label="读物等级">
